@@ -27,19 +27,19 @@ const middle = function(myArray) {
     return result;
   
   //array contain odd number of elements
-  if (myArray.length % 2 != 0) {
+  if (myArray.length % 2 !== 0) {
     result.push(myArray[(myArray.length - 1) / 2]);
     return result;
   }
 
   //array contains even number of elements
-  result.push(myArray[myArray.length/2 - 1]);
-  result.push(myArray[myArray.length/2]);
+  result.push(myArray[myArray.length / 2 - 1]);
+  result.push(myArray[myArray.length / 2]);
   return result;
-}
-console.log(middle([1]))
-console.log(middle([1, 2]))
-console.log(middle([1, 2, 3]))
-console.log(middle([1, 2, 3, 4, 5]))
-console.log(middle([1, 2, 3, 4]) )
-console.log(middle([1, 2, 3, 4, 5, 6]))
+};
+console.log(middle([1]));
+console.log(middle([1, 2]));
+console.log(middle([1, 2, 3]));
+console.log(middle([1, 2, 3, 4, 5]));
+console.log(middle([1, 2, 3, 4]));
+console.log(middle([1, 2, 3, 4, 5, 6]));
