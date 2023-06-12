@@ -1,0 +1,26 @@
+{
+  "name": "@terrynguyen100/lotide",
+  "version": "1.0.0",
+  "description": "A mini clone of the [Lodash] library for learning purpose",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terrynguyen100/lotide.git"
+  },
+  "author": "Terry Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/terrynguyen100/lotide/issues"
+  },
+  "homepage": "https://github.com/terrynguyen100/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^9.2.2"
+  }
+}
